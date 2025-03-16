@@ -30,6 +30,8 @@ public class List01 {
         //get the sublist of a list
         List<Integer> sublist = arr.subList(0,3);
         System.out.println("sublist:"+sublist);
+        //this sublist elements are by reference so any changes in sublist aslo affects in main one
+
     }
 
 

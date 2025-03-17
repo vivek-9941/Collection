@@ -1,6 +1,7 @@
 package org.vivek.List;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 //
@@ -21,6 +22,8 @@ public class List01 {
         System.out.println("arr2 : " + arr2);
         //using addAll()
         arr2.addAll(arr);
+        Collections.sort(arr2);
+        Collections.reverse(arr2);
         System.out.println(arr2);
 
 

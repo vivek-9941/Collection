@@ -9,7 +9,7 @@ public class LinkedListclass {
     public static void main(String[] args) {
 
     List<Integer> lst = new LinkedList<>();
-    //same can be dont wiht LinkedList<Integer>
+    //same can be done wiht LinkedList<Integer>
     lst.add(1);
     lst.add(2);
     lst.add(3);
